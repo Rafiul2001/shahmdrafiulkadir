@@ -24,7 +24,6 @@ const Contact = () => {
                 <div className='flex-1 flex flex-col items-center md:items-start'>
                     <h1 className='font-semibold text-blue text-4xl'>Contact Me</h1>
                     <p className='pt-1 leading-6 text-'>Email: <span>rafiul13062001@gmail.com</span></p>
-                    <p className='leading-6 text-'>Phone: <span>01407737666</span></p>
                     <ul className='flex gap-1 pt-3'>
                         <li><a href="https://web.facebook.com/rafiul2001" target='blank'><RiFacebookCircleFill color='#002863' className='hover:fill-pink-700 cursor-pointer' size={28} /></a></li>
                         <li><a href="https://www.linkedin.com/in/rafiul-kadir-7b3715248/"><RiLinkedinBoxFill color='#002863' className='hover:fill-pink-700 cursor-pointer' size={28} /></a></li>

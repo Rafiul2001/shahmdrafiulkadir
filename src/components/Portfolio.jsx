@@ -80,8 +80,8 @@ const Portfolio = () => {
     return (
         <div id='portfolio' className='px-3 w-full pt-28 flex flex-col gap-8'>
             <h1 className='font-semibold text-blue text-center text-5xl'>Portfolio</h1>
-            <ul className='flex items-center justify-center gap-3 font-medium text-sm sm:text-lg sm:gap-8'>
-                <li onClick={() => setNavigators("All")} className={navigator === "All" ? "text-pink-700": "" }><span className='cursor-pointer'>All</span></li>
+            <ul className='flex items-center justify-center gap-3 font-medium text-xs sm:text-lg sm:gap-8'>
+                <li onClick={() => setNavigators("All")} className={navigator === "All" ? "text-pink-700": "" }><span className='cursor-pointer text-center'>All</span></li>
                 <li onClick={() => setNavigators("Demo websites")} className={navigator === "Demo websites" ? "text-pink-700": ""}><span className='cursor-pointer'>Demo websites</span></li>
                 <li onClick={() => setNavigators("UI/UX Designs")} className={navigator === "UI/UX Designs" ? "text-pink-700": ""}><span className='cursor-pointer'>UI/UX Designs</span></li>
                 <li onClick={() => setNavigators("Mobile Apps")} className={navigator === "Mobile Apps" ? "text-pink-700": ""}><span className='cursor-pointer'>Mobile Apps</span></li>
